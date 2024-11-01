@@ -36,8 +36,8 @@ export class SqsProducerService {
           id: 'unique',
           body: message,
           // fifo 큐에서만 사용
-          // groupId: 'scoollink-group',
-          // deduplicationId: 'scoollink-group',
+          // groupId: 'test-group',
+          // deduplicationId: 'test-group',
         },
       );
     } catch (err) {
